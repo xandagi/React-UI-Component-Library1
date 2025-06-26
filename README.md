@@ -1,12 +1,35 @@
-# React + Vite
+# React UI Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable React components library including custom **Buttons**, **Cards**, and **Modals** — designed for consistency, ease of use, and styling flexibility.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+-  Built with React and Vite
+-  Easy to import and use components
+-  Simple styling with CSS
+-  Modular file structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Components Included
+
+| Component | Description |
+|-----------|-------------|
+| `Button`  | A customizable button with style variants |
+| `Card`    | A flexible card component with title, content, and footer |
+| `Modal`   | A reusable modal dialog with close behavior |
+
+---
+
+##  Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/react-ui-lib.git
+cd react-ui-lib
+npm install
+npm run dev
+
